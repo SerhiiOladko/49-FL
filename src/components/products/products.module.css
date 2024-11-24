@@ -1,0 +1,30 @@
+.shopContainer {
+  padding: 0px 15px;
+  margin-top: 15px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 430px;
+  gap: 10px;
+}
+
+.shopContainerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 6px 20px;
+}
+
+.imgWrapper {
+  margin: 15px 0 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

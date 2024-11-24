@@ -1,0 +1,18 @@
+/* правила для рамки-обертки для картинки */
+.fox-wrapper {
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+  border: 2px dashed darkorange;
+  /* сделали закругленные края до размера овала */
+  border-radius: 50%;
+  /* спрятали части картинки, которые не подходят под новые размеры рамки */
+  overflow: hidden;
+}
+
+/* правила для картинки внутри обертки */
+.fox-wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

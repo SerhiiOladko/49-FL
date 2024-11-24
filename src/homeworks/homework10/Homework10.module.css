@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #5d4037;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:hover {
+    background-color: #ff8a50;
+    transform: scale(1.05);
+  }
+  
+  .factBlock {
+    width: 100%;
+    max-width: 500px;
+    max-height: 700px;
+    overflow-y: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fact {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  

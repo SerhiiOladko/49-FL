@@ -1,0 +1,13 @@
+.desc {
+  font-style: italic;
+  color: rgb(255, 128, 0);
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+/* в css модулях имя класса из нескольких слов пишут в camel case */
+.boldText {
+  font-weight: bold;
+}

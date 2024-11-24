@@ -1,0 +1,24 @@
+.myButton {
+  color: white;
+  cursor: pointer;
+  margin: 1px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btnPrimary {
+  background-color: rgb(115, 115, 253);
+}
+
+.btnDanger {
+  background-color: rgb(253, 70, 70);
+}
+
+.btnPrimary:hover {
+  background-color: rgb(184, 184, 255);
+}
+
+.btnDanger:hover {
+  background-color: rgb(255, 145, 145);
+}
